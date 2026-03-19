@@ -1,0 +1,27 @@
+.DS_Store
+frontend/node_modules
+frontend/dist
+backend/.venv
+backend/__pycache__
+__pycache__
+*.pyc
+.pytest_cache
+
+# Environment files (keep .env.example)
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+backend/.env
+backend/.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
